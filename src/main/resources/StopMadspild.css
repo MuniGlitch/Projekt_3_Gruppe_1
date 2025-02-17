@@ -1,0 +1,101 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #959595;
+}
+
+    .myDiv {
+        background-color: #4CAF50;
+        color: #ffffff;
+        padding: 20px;
+        text-align: left;
+    }
+
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: left;
+}
+
+nav ul li {
+    margin: 5px;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #555;
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+
+.Form {body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+}
+
+    form {
+        background: #959595;
+        padding: 30px 50px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        max-width: 300px;
+        width: 30%;
+    }
+
+    form p {
+        margin-bottom: 30px;
+    }
+
+    input[type="email"],email {
+        width: 30%;
+        padding: 20px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+    input[type="text"],textarea {
+        width: 30%;
+        padding: 20px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+    input[type="radio"],
+    input[type="checkbox"] {
+        margin-left: 5px;
+    }
+
+    input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 5px 5px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+    background-color: #959595;
+    text-align: center;
+    padding: 10px; }
