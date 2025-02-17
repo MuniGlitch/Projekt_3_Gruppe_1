@@ -2,11 +2,18 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background: #959595;
+    background: #ffffff;
 }
 
+.top-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 168px;
+    height: auto;}
+
     .myDiv {
-        background-color: #4CAF50;
+        background-color: #c1878a;
         color: #ffffff;
         padding: 20px;
         text-align: left;
@@ -14,7 +21,7 @@ body, html {
 
 
 nav {
-    background-color: #333;
+    background-color: #959595;
     overflow: hidden;
 }
 
@@ -49,7 +56,7 @@ nav ul li a {
 }
 
     form {
-        background: #959595;
+        background: #ffffff;
         padding: 30px 50px;
         border-radius: 10px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -65,7 +72,7 @@ nav ul li a {
         width: 30%;
         padding: 20px;
         margin-top: 5px;
-        border: 1px solid #ccc;
+        border: 1px solid #959595;
         border-radius: 5px;
         box-sizing: border-box;
     }
@@ -73,7 +80,7 @@ nav ul li a {
         width: 30%;
         padding: 20px;
         margin-top: 5px;
-        border: 1px solid #ccc;
+        border: 1px solid #959595;
         border-radius: 5px;
         box-sizing: border-box;
     }
@@ -89,13 +96,12 @@ nav ul li a {
         padding: 5px 5px;
         border: none;
         border-radius: 5px;
-        cursor: pointer;
         font-size: 16px;
     }
 
     input[type="submit"]:hover {
         background-color: #45a049;
     }
-    background-color: #959595;
-    text-align: center;
+    background-color: #ffffff;
+    text-align: left;
     padding: 10px; }
