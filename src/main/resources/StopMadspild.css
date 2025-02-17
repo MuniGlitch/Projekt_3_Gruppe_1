@@ -16,7 +16,7 @@ body, html {
         background-color: #c1878a;
         color: #ffffff;
         padding: 20px;
-        text-align: left;
+        text-align: center;
     }
 
 
@@ -47,7 +47,8 @@ nav ul li a {
     transition: background 0.3s;
 }
 
-.Form {body {
+.Form {
+    body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f9;
     justify-content: center;
@@ -105,3 +106,7 @@ nav ul li a {
     background-color: #ffffff;
     text-align: left;
     padding: 10px; }
+textarea{
+    min-height: 100px;
+    field-sizing: content;
+}
