@@ -116,7 +116,7 @@ textarea{
     field-sizing: content;
     width: 100%;
 }
-.container{
+.kontaktcontainer{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
