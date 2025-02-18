@@ -212,3 +212,10 @@ footer{
         font-family: "Times New Roman", sans-serif;
     }
 }
+.imgStopMadspild img {
+    display: block;
+    float: right;
+    margin-right: 20px;
+    width: 50px;
+    height: auto;
+}
