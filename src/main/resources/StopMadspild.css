@@ -178,7 +178,7 @@ footer{
     h4 { color: #2c3e50;
         font-size: 1.4em;}
 
-    p {color: #555;}
+    p {color: rgba(0, 0, 0, 0.73);}
 }
 .chupapi {
     h10 {
