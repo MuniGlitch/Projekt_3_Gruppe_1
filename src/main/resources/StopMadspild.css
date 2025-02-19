@@ -116,7 +116,7 @@ textarea{
     field-sizing: content;
     width: 100%;
 }
-.container{
+.kontaktcontainer{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -138,20 +138,23 @@ footer{
     background-color: #c1878a;
     margin-top: auto;
     padding: 5px;
+    position: relative;
     h{
         font-weight: bold;
     }
     h span{
         font-weight: normal;
     }
+    .bottom-right{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 80px;
+        height: 80px;
+    }
 }
-.buttom-right{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 80px;
-    height: 80px;
-}
+
+
 
 
 
@@ -211,4 +214,11 @@ footer{
         margin: 0 15%;
         font-family: "Times New Roman", sans-serif;
     }
+}
+.imgStopMadspild img {
+    display: block;
+    float: right;
+    margin-right: 20px;
+    width: 50px;
+    height: auto;
 }
