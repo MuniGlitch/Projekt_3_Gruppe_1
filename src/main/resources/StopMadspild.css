@@ -137,7 +137,6 @@ footer{
     margin-top: auto;
     padding: 5px;
     position: relative;
-    margin-top: 70px;
     h{
         font-weight: bold;
     }
@@ -211,15 +210,4 @@ footer{
         margin: 0 15%;
         font-family: "Times New Roman", sans-serif;
     }
-}
-
-.boarder {
-    background: lightgrey;
-    border-radius: 10px;
-    padding: 2px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-left: 240px;
-    margin-right: 240px;
-    margin-top: 50px;
-    text-align-last: center;
 }
