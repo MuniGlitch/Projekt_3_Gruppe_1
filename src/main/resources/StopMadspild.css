@@ -134,7 +134,7 @@ textarea{
 }
 footer{
     background-color: #c1878a;
-    margin-top: auto;
+    margin-top: 70px;
     padding: 5px;
     position: relative;
     h{
@@ -210,4 +210,25 @@ footer{
         margin: 0 15%;
         font-family: "Times New Roman", sans-serif;
     }
+}
+.boarder {
+    background: lightgrey;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-top: 40px;
+    text-align-last: center;
+    text-autospace: inherit;
+
+}
+
+.background {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('Img/Gif.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
