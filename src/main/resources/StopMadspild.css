@@ -141,7 +141,7 @@ textarea{
 }
 footer{
     background-color: #c1878a;
-    margin-top: auto;
+    margin-top: 50px;
     padding: 5px;
     position: relative;
     display: flex;
