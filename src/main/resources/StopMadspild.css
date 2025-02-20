@@ -1,6 +1,6 @@
 nav a.active{
-    background-color: black;
-    color: yellow;
+    background-color: #c1878a;
+    color: rgba(0, 0, 0, 0.8);
 }
 body, html {
     margin: 0;
