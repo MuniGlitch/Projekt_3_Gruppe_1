@@ -7,15 +7,17 @@ body, html {
     display: flex;
     flex-direction: column;
 }
+h1 {text-shadow: 1px 1px;}
+
 
 .top-right {
     position: absolute;
     top: 0;
     right: 0;
-    width: 168px;
+    width: 130px;
     height: auto;}
 
-    .myDiv {
+    .header {
         background-color: #c1878a;
         color: #ffffff;
         padding: 20px;
@@ -24,8 +26,9 @@ body, html {
     }
 
 
+
 nav {
-    background-color: #959595;
+    background-color: #d3d3d3;
     overflow: hidden;
 }
 
@@ -46,9 +49,11 @@ nav ul li a {
     color: white;
     text-decoration: none;
     padding: 10px 15px;
-    background-color: #555;
+    background-color: #c1878a;
     border-radius: 8px;
     transition: background 0.3s;
+    box-shadow: 0px 4px 10px rgb(175, 104, 106);
+    margin: 8px;
 }
 
 .Form {
@@ -59,18 +64,22 @@ nav ul li a {
     background-color: grey;
     margin-top: 20px;
     margin-left: 20px;
+    box-shadow: 0px 4px 10px rgba(50, 50, 50, 0.5);
+    font-weight: bold;
 
 
     body {
     font-family: "Times New Roman", sans-serif;
-    background-color: #f4f4f9;
+    background: #D3D3D3FF;
     justify-content: center;
     align-items: center;
     min-height: 30vh;
+
 }
 
     form p {
         margin-bottom: 30px;
+        font-weight: bold;
     }
 
     input[type="email"],email {
@@ -102,6 +111,7 @@ nav ul li a {
         border: none;
         border-radius: 5px;
         font-size: 16px;
+
     }
 
     input[type="submit"]:hover {
@@ -118,12 +128,20 @@ textarea{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    padding-bottom: 40px;
+
 }
+
 .kontaktinfo{
     padding: 10px;
     border-radius: 5px;
-    width: 300px;
+    width: 320px;
     max-width: 100%;
+    background: #D3D3D3FF;
+    margin: auto;
+    box-shadow: 0px 4px 10px rgba(50, 50, 50, 0.5);
+    font-size: 25px;
+    height: 400px;
     background-color: lightgray;
     margin-top: 20px;
     margin-right: 700px;
@@ -137,6 +155,11 @@ footer{
     margin-top: 70px;
     padding: 5px;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    overflow: hidden;
     h{
         font-weight: bold;
     }
@@ -159,7 +182,6 @@ footer{
     gap: 20px;
     max-width: 1475px;
     margin: 20px auto;
-
     img {
         width: 150px;
         height: 150px;
@@ -178,17 +200,17 @@ footer{
     h4 { color: #2c3e50;
         font-size: 1.4em;}
 
-    p {color: #555;}
+    p {color: rgba(0, 0, 0, 0.73);}
 }
-.chupapi {
+.hvadkanvigøre {
     h10 {
         color: #2c3e50;
         text-align: center;
     }
     background: white;
     padding: 20px;
-    margin: 40px auto;
-    max-width: 800px;
+    margin: auto;
+    max-width: 80%;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     font-size: 20px;
@@ -231,4 +253,25 @@ footer{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+.IndexVideo{
+    margin-left: 100px;
+    margin-top: 100px;
+    position: absolute;
+}
+.IndexText {
+    h10 {
+        color: #2c3e50;
+    }
+    text-align: left;
+    background: white;
+    padding: 20px;
+    max-width: 37%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-size: 20px;
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 100px;
+    text-align: center;
 }
