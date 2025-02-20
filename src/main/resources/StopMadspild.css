@@ -1,3 +1,7 @@
+nav a.active{
+    background-color: black;
+    color: yellow;
+}
 body, html {
     margin: 0;
     padding: 0;
@@ -143,7 +147,6 @@ textarea{
 }
 footer{
     background-color: #c1878a;
-    margin-top: 50px;
     padding: 5px;
     position: relative;
     display: flex;
