@@ -230,14 +230,6 @@ footer{
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
 }
 
-
-.hvadkanvigøre h2 {
-    color: #2c3e50;
-    font-size: 22px;
-    font-weight: bold;
-    margin-bottom: 15px;
-}
-
 .hvadkanvigøre ul {
     list-style: none;
     padding: 0;
@@ -249,9 +241,6 @@ footer{
     border-bottom: 1px solid #ecf0f1;
 }
 
-.hvadkanvigøre ul li:last-child {
-    border-bottom: none;
-}
 
 .OmOs {
 
