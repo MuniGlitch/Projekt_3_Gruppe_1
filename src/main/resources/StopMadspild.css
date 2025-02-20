@@ -69,7 +69,7 @@ nav ul li a {
     border-radius: 5px;
     width: 300px;
     max-width: 100%;
-    background-color: grey;
+    background-color: #D3D3D3FF;
     margin-top: 20px;
     margin-left: 20px;
     box-shadow: 0px 4px 10px rgba(50, 50, 50, 0.5);
@@ -94,7 +94,7 @@ nav ul li a {
         width: 100%;
         padding: 20px;
         margin-top: 5px;
-        border: 1px solid #959595;
+        border: 1px solid #D3D3D3FF;
         border-radius: 5px;
         box-sizing: border-box;
     }
@@ -102,7 +102,7 @@ nav ul li a {
         width: 100%;
         padding: 20px;
         margin-top: 5px;
-        border: 1px solid #959595;
+        border: 1px solid #D3D3D3FF;
         border-radius: 5px;
         box-sizing: border-box;
     }
@@ -150,10 +150,6 @@ textarea{
     box-shadow: 0px 4px 10px rgba(50, 50, 50, 0.5);
     font-size: 25px;
     height: 400px;
-    background-color: lightgray;
-    margin-top: 20px;
-    margin-right: 700px;
-
     h{
         font-weight: bold;
     }
