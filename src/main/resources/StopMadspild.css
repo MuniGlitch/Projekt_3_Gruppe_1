@@ -156,7 +156,6 @@ textarea{
 }
 footer{
     background-color: #c1878a;
-    margin-top: 70px;
     padding: 5px;
     position: relative;
     display: flex;
@@ -243,6 +242,7 @@ footer{
 
 
 .OmOs {
+    padding-bottom: 40px;
 
     h1 {
         text-align: center;
