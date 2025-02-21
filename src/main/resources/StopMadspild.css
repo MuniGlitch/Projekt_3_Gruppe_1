@@ -200,12 +200,16 @@ footer{
     h4 { color: #2c3e50;
         font-size: 1.4em;}
 
-    p {color: rgba(0, 0, 0, 0.73);}
+    p {
+        color: rgba(0, 0, 0, 0.73);
+    }
 }
 
 .person:hover{
     transform: translateY(-10px);
-    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.35);}
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.35);
+}
+
 
 .hvadkanvigøre-container {
     display: grid;
